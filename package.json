@@ -1,0 +1,37 @@
+{
+  "author": "mattbornski",
+  "name": "patterns",
+  "description": "Determine Node.JS memory leak patterns",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "directories" : {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "heap",
+    "memory",
+    "leak",
+    "garbage",
+    "collect",
+    "collection",
+    "async",
+    "callback"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattbornski/node-leak-patterns.git"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "dependencies": {
+    "weak": "0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "git://github.com/mattbornski/mocha.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
